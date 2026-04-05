@@ -1,0 +1,190 @@
+# 🚀 Coding Profile Analyzer
+
+A full-stack **Developer Analytics Dashboard** that fetches and visualizes coding profiles from multiple platforms like Codeforces, LeetCode, GitHub, HackerRank, and LinkedIn.
+
+---
+
+## 🔥 Features
+
+* 🔍 Search any username across platforms
+* 🌐 Multi-platform support
+
+  * Codeforces
+  * LeetCode
+  * GitHub
+  * HackerRank (basic)
+  * LinkedIn (profile link)
+* 📊 Interactive charts (difficulty distribution)
+* 📈 Contest history graph (Codeforces)
+* 🔥 GitHub contribution heatmap
+* 🏆 Compare users (coming soon)
+* 🎨 Modern UI with Tailwind CSS
+* ⚡ Fast and responsive
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+* React JS
+* Tailwind CSS
+* Recharts
+
+### Backend
+
+* Node.js
+* Express.js
+* Axios
+
+---
+
+## 📁 Project Structure
+
+```bash
+coding-profile-analyzer/
+│
+├── client/                 # Frontend (React)
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── SearchBar.jsx
+│   │   │   ├── PlatformToggle.jsx
+│   │   │   ├── StatsChart.jsx
+│   │   │   └── ...
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── package.json
+│
+├── server/                # Backend (Node.js)
+│   ├── index.js / server.js
+│   ├── routes/
+│   ├── controllers/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/coding-profile-analyzer.git
+cd coding-profile-analyzer
+```
+
+---
+
+### 2️⃣ Setup Backend
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+Server runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Frontend runs on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔌 API Endpoints
+
+| Platform   | Endpoint                |
+| ---------- | ----------------------- |
+| Codeforces | `/codeforces/:username` |
+| LeetCode   | `/leetcode` (POST)      |
+| GitHub     | `/github` (POST)        |
+| HackerRank | `/hackerrank/:username` |
+| LinkedIn   | `/linkedin` (POST)      |
+
+---
+
+## 📊 Features Explained
+
+### 📌 Codeforces
+
+* Rating
+* Rank
+* Contest data
+
+### 📌 LeetCode
+
+* Total solved
+* Easy / Medium / Hard breakdown
+
+### 📌 GitHub
+
+* Profile data
+* Contributions (heatmap)
+
+### 📌 HackerRank
+
+* Basic stats (scraping planned)
+
+### 📌 LinkedIn
+
+* Direct profile link
+
+---
+
+## 🚀 Future Improvements
+
+* 🧠 AI-based skill analysis
+* 📅 Daily streak tracking
+* 🏆 Leaderboard
+* 📤 Shareable profile link
+* 🔐 Authentication system
+
+---
+
+## 💯 Resume Description
+
+> Built a full-stack Coding Profile Analyzer integrating multiple platforms (Codeforces, LeetCode, GitHub) with real-time data visualization, charts, and performance analytics.
+
+---
+
+## 🌐 Live Demo
+
+👉 Coming soon...
+
+---
+
+## 👨‍💻 Author
+
+**Uttam Kumar**
+
+* 🌐 Portfolio: https://modexa.in
+* 📧 Email: [uttammaurya377@gmail.com](mailto:uttammaurya377@gmail.com)
+
+---
+
+## ⭐ Show Your Support
+
+Give a ⭐ if you like this project!
